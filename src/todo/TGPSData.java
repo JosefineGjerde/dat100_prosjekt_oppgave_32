@@ -1,3 +1,4 @@
+package todo;
 
 import oppgave1.GPSPoint;
 import oppgave2.GPSData;

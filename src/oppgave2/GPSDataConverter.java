@@ -1,2 +1,41 @@
-package oppgave2;public class GPSDataConverter {
+package oppgave2;
+
+import todo.TODO;
+import oppgave1.GPSPoint;
+
+public class GPSDataConverter {
+
+    // konverter tidsinformasjon i gps data punkt til antall sekunder fra midnatt
+    // dvs. ignorer information om dato og omregn tidspunkt til sekunder
+    // Eksempel - tidsinformasjon (som String): 2017-08-13T08:52:26.000Z
+    // skal omregnes til sekunder (som int): 8 * 60 * 60 + 52 * 60 + 26
+
+    private static int TIME_STARTINDEX = 11; // posisjon for start av tidspunkt i timestr
+
+    public static int toSeconds(String timestr) {
+
+        int secs;
+        int hr, min, sec;
+
+        // TODO
+        // OPPGAVE - START
+
+        throw new UnsupportedOperationException(TODO.method());
+
+        // OPPGAVE - SLUTT
+
+    }
+
+    public static GPSPoint convert(String timeStr, String latitudeStr, String longitudeStr, String elevationStr) {
+
+        GPSPoint gpspoint;
+
+        // TODO - START ;
+
+        throw new UnsupportedOperationException(TODO.method());
+
+        // OPPGAVE - SLUTT ;
+
+    }
+
 }

@@ -1,3 +1,5 @@
+package todo;
+
 public class TODO {
 
 	public static String method() {
