@@ -6,25 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c950eeaa-c9e5-4a19-8eb0-80af53da8ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave1/GPSPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave1/GPSPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave1/GPSPointTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave1/GPSPointTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataConverterTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataConverterTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataFileReaderTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataFileReaderTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oppgave3/GPSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave3/GPSUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave4/GPSComputerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave4/GPSComputerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave5/ShowProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave5/ShowProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave5/ShowRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave5/ShowRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave5/ShowSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave5/ShowSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave6/CycleComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave6/CycleComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todo/TGPSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/todo/TGPSData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todo/TODO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/todo/TODO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +44,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jorge/Desktop/dat100_prosjekt_oppgave_32/libs/easygraphics.jar",
+    "last_opened_file_path": "C:/Users/jorge/Desktop/dat100_prosjekt_oppgave_32",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -84,7 +67,7 @@
       <recent name="C:\Users\jorge\Desktop\dat100_prosjekt_oppgave_32\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GPSDataTester">
+  <component name="RunManager" selected="JUnit.GPSUtilsTester">
     <configuration name="GPSComputerTester" type="JUnit" factoryName="JUnit">
       <module name="dat100_prosjekt_oppgave_32" />
       <option name="PACKAGE_NAME" value="oppgave4" />
@@ -121,18 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GPSUtilsTester.testFindMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GPSUtilsTester" type="JUnit" factoryName="JUnit">
       <module name="dat100_prosjekt_oppgave_32" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oppgave3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="oppgave3" />
       <option name="MAIN_CLASS_NAME" value="oppgave3.GPSUtilsTester" />
-      <option name="METHOD_NAME" value="testFindMax" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,13 +117,12 @@
     <list>
       <item itemvalue="JUnit.GPSPointTester" />
       <item itemvalue="JUnit.GPSComputerTester" />
+      <item itemvalue="JUnit.GPSUtilsTester" />
       <item itemvalue="JUnit.GPSDataTester" />
-      <item itemvalue="JUnit.GPSUtilsTester.testFindMax" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GPSDataTester" />
-        <item itemvalue="JUnit.GPSUtilsTester.testFindMax" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +134,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665396628754</updated>
-      <workItem from="1665396630688" duration="16811000" />
+      <workItem from="1665396630688" duration="18406000" />
     </task>
+    <task id="LOCAL−00001" summary="la inn docs filen så den er lett tilgjengelig">
+      <created>1665418620233</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1665418620233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="la inn docs filen så den er lett tilgjengelig" />
+    <option name="LAST_COMMIT_MESSAGE" value="la inn docs filen så den er lett tilgjengelig" />
   </component>
 </project>
