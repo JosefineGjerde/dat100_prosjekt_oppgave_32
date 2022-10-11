@@ -12,6 +12,7 @@ public class GPSData {
     public GPSData(int n) {
 
         // TODO - START
+    	//Ny Kommentar
         gpspoints = new GPSPoint[n];
 
         // TODO - SLUTT
