@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c950eeaa-c9e5-4a19-8eb0-80af53da8ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave3/GPSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave3/GPSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,6 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/jorge/Desktop/dat100_prosjekt_oppgave_32",
     "node.js.detected.package.eslint": "true",
@@ -51,8 +51,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "JavaScript.Libraries"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665396628754</updated>
-      <workItem from="1665396630688" duration="18406000" />
+      <workItem from="1665396630688" duration="30445000" />
     </task>
     <task id="LOCAL−00001" summary="la inn docs filen så den er lett tilgjengelig">
       <created>1665418620233</created>
@@ -142,7 +143,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1665418620233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="jobbet videre med oppgave 3 Utils">
+      <created>1665477518557</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1665477518557</updated>
+    </task>
+    <task id="LOCAL−00003" summary="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige">
+      <created>1665488862439</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1665488862439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +163,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="la inn docs filen så den er lett tilgjengelig" />
-    <option name="LAST_COMMIT_MESSAGE" value="la inn docs filen så den er lett tilgjengelig" />
+    <MESSAGE value="jobbet videre med oppgave 3 Utils" />
+    <MESSAGE value="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige" />
+    <option name="LAST_COMMIT_MESSAGE" value="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
