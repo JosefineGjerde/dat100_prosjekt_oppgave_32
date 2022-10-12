@@ -13,22 +13,7 @@ public class GPSDataConverter {
     private static int TIME_STARTINDEX = 11; // posisjon for start av tidspunkt i timestr
 
     public static int toSeconds(String timestr) {
-    	
-    	/*timestr = "8 * 60 * 60 + 52 * 60 + 26 "; 
-    	String input = ("Antall sekunder");
-    	 int secs = toSeconds(input);
-         
-
-        int hr = secs / 3600;
-        
-        int min = (secs % 3600) / 60;
-        
-        int sec = secs % 60;
-        
-        System.out.println(hr + " timer " + min + " minutter " + + sec + " sekunder ");
-        
-		return sec; */
-    	
+    		
     	int secs; 
     	int hr, min, sec; 
 
@@ -52,7 +37,6 @@ public class GPSDataConverter {
     	
     	return secs;
 
-    
     }
 
     public static GPSPoint convert(String timeStr, String latitudeStr, String longitudeStr, String elevationStr) {
@@ -78,10 +62,13 @@ public class GPSDataConverter {
         fordi metoden returne et `GPSPoint`-objekt der `time` er `31946`, `latitude` er `60.385390`, `longitude` er `5.217217` og `elevation` er `61.9`.
         ---------------------------------------------------------^her__^
         vi kan da bruke den funksjonen vi lagde rett over til å gjøre det.
-
-
          */
-        throw new UnsupportedOperationException(TODO.method());
+        
+        gpspoint += Integer.parseInt(timeStr.substring(TIME_STARTINDEX).split(","));
+        gpspoint += Integer.parseInt(latitudeStr.substring(20).split(","));
+        gpspoint += Integer.parseInt(longitudeStr.substring(28).split(","));
+        gpspoint += Integer.parseInt(elevationStr.substring(35).split(","));
+        
 
         //return gpspoint[1];
 
