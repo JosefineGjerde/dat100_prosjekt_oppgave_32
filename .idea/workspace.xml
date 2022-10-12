@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c950eeaa-c9e5-4a19-8eb0-80af53da8ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dat100_prosjekt_oppgave_32.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave3/GPSUtilsTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/oppgave2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/oppgave2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +69,21 @@
       <recent name="C:\Users\jorge\Desktop\dat100_prosjekt_oppgave_32\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GPSUtilsTester">
+  <component name="RunManager" selected="JUnit.GPSCoverterTester">
     <configuration name="GPSComputerTester" type="JUnit" factoryName="JUnit">
       <module name="dat100_prosjekt_oppgave_32" />
       <option name="PACKAGE_NAME" value="oppgave4" />
       <option name="MAIN_CLASS_NAME" value="oppgave4.GPSComputerTester" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPSCoverterTester" type="JUnit" factoryName="JUnit">
+      <module name="dat100_prosjekt_oppgave_32" />
+      <option name="PACKAGE_NAME" value="oppgave2" />
+      <option name="MAIN_CLASS_NAME" value="oppgave2.GPSDataConverterTester" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -118,6 +129,7 @@
     <list>
       <item itemvalue="JUnit.GPSPointTester" />
       <item itemvalue="JUnit.GPSComputerTester" />
+      <item itemvalue="JUnit.GPSCoverterTester" />
       <item itemvalue="JUnit.GPSUtilsTester" />
       <item itemvalue="JUnit.GPSDataTester" />
     </list>
@@ -135,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665396628754</updated>
-      <workItem from="1665396630688" duration="30445000" />
+      <workItem from="1665396630688" duration="35138000" />
     </task>
     <task id="LOCAL−00001" summary="la inn docs filen så den er lett tilgjengelig">
       <created>1665418620233</created>
@@ -155,7 +167,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1665488862439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige">
+      <created>1665565418005</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1665565418005</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

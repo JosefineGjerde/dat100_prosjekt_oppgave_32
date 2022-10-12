@@ -4,9 +4,11 @@ package oppgave4;
 import  todo.TODO;
 import oppgave1.GPSPoint;
 import oppgave2.GPSData;
-import oppgave2.GPSDataConverter;
+//import oppgave2.GPSDataConverter;
 import oppgave2.GPSDataFileReader;
 import oppgave3.GPSUtils;
+
+import static oppgave3.GPSUtils.distance;
 
 public class GPSComputer {
 
@@ -31,11 +33,17 @@ public class GPSComputer {
     public double totalDistance() {
 
         double distance = 0;
-
+        int i = 0;
         // TODO - START
 
+        while(i < gpspoints.length){
 
-        throw new UnsupportedOperationException(TODO.method());
+            distance += distance(gpspoints[i],gpspoints[i+1]);
+            i++;
+
+        };
+        return distance;
+        //throw new UnsupportedOperationException(TODO.method());
 
         // TODO - SLUTT
 
