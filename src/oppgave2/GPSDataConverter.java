@@ -13,28 +13,46 @@ public class GPSDataConverter {
     private static int TIME_STARTINDEX = 11; // posisjon for start av tidspunkt i timestr
 
     public static int toSeconds(String timestr) {
+    	
+    	/*timestr = "8 * 60 * 60 + 52 * 60 + 26 "; 
+    	String input = ("Antall sekunder");
+    	 int secs = toSeconds(input);
+         
 
-        int secs;
-        int hr, min, sec;
-
-        // TODO
-        // OPPGAVE - START
-
-        throw new UnsupportedOperationException(TODO.method());
-
-        // OPPGAVE - SLUTT
-
+        int hr = secs / 3600;
+        
+        int min = (secs % 3600) / 60;
+        
+        int sec = secs % 60;
+        
+        System.out.println(hr + " timer " + min + " minutter " + + sec + " sekunder ");
+        
+		return sec; */
+    	
+    	int secs; 
+    	int hr, min, sec; 
+    	
+    	hr = Integer.parseInt(timestr.substring(11,13)); 
+    	min = Integer.parseInt(timestr.substring(14,16));
+    	sec = Integer.parseInt(timestr.substring(17,19));
+    	secs = hr * 60 * 60 + min * 60 + sec;
+    	
+    	return secs;
+    
     }
 
     public static GPSPoint convert(String timeStr, String latitudeStr, String longitudeStr, String elevationStr) {
 
-        GPSPoint gpspoint;
+        double gpspoint; 
+        
+        gpspoint = Integer.parseInt(timeStr.substring(11));
+        gpspoint = Integer.parseInt(latitudeStr.substring(20));
+        gpspoint = Integer.parseInt(longitudeStr.substring(28));
+        gpspoint = Integer.parseInt(elevationStr.substring(35));
+        
+        return GPSPoint;
 
-        // TODO - START ;
-
-        throw new UnsupportedOperationException(TODO.method());
-
-        // OPPGAVE - SLUTT ;
+        
 
     }
 

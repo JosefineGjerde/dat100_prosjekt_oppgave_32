@@ -2,6 +2,7 @@ package oppgave1;
 import todo.TODO;
 
 public class GPSPoint {
+	
 
     // TODO - objektvariable
     private int time;

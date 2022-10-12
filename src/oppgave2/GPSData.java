@@ -12,9 +12,15 @@ public class GPSData {
     public GPSData(int n) {
 
         // TODO - START
-    	//Ny Kommentar
+    	
         gpspoints = new GPSPoint[n];
-
+        
+ /*   	g0.time = new GPSPoint (?);
+        g1.latitude = new GPSPoint (?);
+        g2.longitude = new GPSPoint (?);
+        g3.elevation = new GPSPoint (?);
+*/
+        
         // TODO - SLUTT
     }
 
