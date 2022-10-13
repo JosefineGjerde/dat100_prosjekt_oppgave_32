@@ -4,6 +4,8 @@ import todo.TGPSData.*;
 import oppgave1.GPSPoint;
 import todo.TODO;
 
+import static oppgave2.GPSDataConverter.convert;
+
 public class GPSData {
 
     private GPSPoint[] gpspoints;
@@ -49,8 +51,19 @@ public class GPSData {
         boolean inserted = false;
 
         // TODO - START
+        try {
 
-        throw new UnsupportedOperationException(TODO.method());
+                gpspoints[antall] = gpspoint;
+                antall ++;
+                inserted = true;
+
+        }catch (Exception e){
+            inserted = false;
+
+        }
+        return inserted;
+
+        //throw new UnsupportedOperationException(TODO.method());
 
         // TODO - SLUTT
     }
@@ -59,12 +72,13 @@ public class GPSData {
 
     	//her skal jeg få verdiene fra den andre klassen som er ferdig laget 
     	//på forhånd, inn i tabellen min?
+        GPSPoint gpspoint = convert(time,latitude,longitude,elevation);
+        antall++;
     	
-        GPSPoint gpspoint;
+        return true;
 
         // TODO - START
 
-        throw new UnsupportedOperationException(TODO.method());
 
         // TODO - SLUTT
 
@@ -77,8 +91,10 @@ public class GPSData {
         System.out.println("====== Konvertert GPS Data - START ======");
 
         // TODO - START
-
-        throw new UnsupportedOperationException(TODO.method());
+        for(int i = 0; i < gpspoints.length; i++){
+            System.out.printf("%s",gpspoints[i]);
+        }
+        //throw new UnsupportedOperationException(TODO.method());
 
         // TODO - SLUTT
 

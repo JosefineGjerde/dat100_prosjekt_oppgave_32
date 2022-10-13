@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c950eeaa-c9e5-4a19-8eb0-80af53da8ce0" name="Changes" comment="">
+    <list default="true" id="e276550f-d3f1-4cf5-adbb-99980b15d4be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/oppgave2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/oppgave2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave2/GPSDataConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oppgave4/GPSComputer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,165 +20,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FwIGrnLtLCAZcddZShwaukmU1o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2G4hXBzLk7E7iIPXPyjrPQrCuBg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jorge/Desktop/dat100_prosjekt_oppgave_32",
+    "last_opened_file_path": "C:/Users/jorge/Desktop/dat100-Innleveringer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "JavaScript.Libraries"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="oppgave2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jorge\Desktop\dat100_prosjekt_oppgave_32" />
-      <recent name="C:\Users\jorge\Desktop\dat100_prosjekt_oppgave_32\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jorge\Desktop\dat100_prosjekt_oppgave_32\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.GPSCoverterTester">
-    <configuration name="GPSComputerTester" type="JUnit" factoryName="JUnit">
-      <module name="dat100_prosjekt_oppgave_32" />
-      <option name="PACKAGE_NAME" value="oppgave4" />
-      <option name="MAIN_CLASS_NAME" value="oppgave4.GPSComputerTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GPSCoverterTester" type="JUnit" factoryName="JUnit">
-      <module name="dat100_prosjekt_oppgave_32" />
-      <option name="PACKAGE_NAME" value="oppgave2" />
-      <option name="MAIN_CLASS_NAME" value="oppgave2.GPSDataConverterTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GPSDataTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dat100_prosjekt_oppgave_32" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oppgave2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oppgave2" />
-      <option name="MAIN_CLASS_NAME" value="oppgave2.GPSDataTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GPSPointTester" type="JUnit" factoryName="JUnit">
-      <module name="dat100_prosjekt_oppgave_32" />
-      <option name="PACKAGE_NAME" value="oppgave1" />
-      <option name="MAIN_CLASS_NAME" value="oppgave1.GPSPointTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GPSUtilsTester" type="JUnit" factoryName="JUnit">
-      <module name="dat100_prosjekt_oppgave_32" />
-      <option name="PACKAGE_NAME" value="oppgave3" />
-      <option name="MAIN_CLASS_NAME" value="oppgave3.GPSUtilsTester" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.GPSPointTester" />
-      <item itemvalue="JUnit.GPSComputerTester" />
-      <item itemvalue="JUnit.GPSCoverterTester" />
-      <item itemvalue="JUnit.GPSUtilsTester" />
-      <item itemvalue="JUnit.GPSDataTester" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.GPSDataTester" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c950eeaa-c9e5-4a19-8eb0-80af53da8ce0" name="Changes" comment="" />
-      <created>1665396628754</created>
+      <changelist id="e276550f-d3f1-4cf5-adbb-99980b15d4be" name="Changes" comment="" />
+      <created>1665653809951</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665396628754</updated>
-      <workItem from="1665396630688" duration="35138000" />
+      <updated>1665653809951</updated>
+      <workItem from="1665653812220" duration="8341000" />
     </task>
-    <task id="LOCAL−00001" summary="la inn docs filen så den er lett tilgjengelig">
-      <created>1665418620233</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1665418620233</updated>
-    </task>
-    <task id="LOCAL−00002" summary="jobbet videre med oppgave 3 Utils">
-      <created>1665477518557</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1665477518557</updated>
-    </task>
-    <task id="LOCAL−00003" summary="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige">
-      <created>1665488862439</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1665488862439</updated>
-    </task>
-    <task id="LOCAL−00004" summary="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige">
-      <created>1665565418005</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1665565418005</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="la inn docs filen så den er lett tilgjengelig" />
-    <MESSAGE value="jobbet videre med oppgave 3 Utils" />
-    <MESSAGE value="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige" />
-    <option name="LAST_COMMIT_MESSAGE" value="ferdig stilte oppgave 3. alle utils skal nå være tilgjengelige" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
