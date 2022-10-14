@@ -28,9 +28,6 @@ public class GPSUtils {
 
         double min;
 
-        // TODO - START
-
-
         min = da[0];
 
         for (double d : da) {
@@ -41,40 +38,31 @@ public class GPSUtils {
 
         return min;
 
-        // TODO - SLUT
-
     }
 
     public static double[] getLatitudes(GPSPoint[] gpspoints) {
 
-        // TODO - START
         double[] latitudes = new double[gpspoints.length];
         for(int i = 0; i < gpspoints.length; i++){
             latitudes[i] = gpspoints[i].getLatitude();
         }
 
-        //throw new UnsupportedOperationException(TODO.method());
-
-        // TODO - SLUTT
         return latitudes;
     }
 
     public static double[] getLongitudes(GPSPoint[] gpspoints) {
 
-        // TODO - START
         double[] longitudes = new double[gpspoints.length];
         for(int i = 0; i < gpspoints.length; i++){
             longitudes[i] = gpspoints[i].getLongitude();
         }
 
-        //throw new UnsupportedOperationException(TODO.method());
 
-        // TODO - SLUTT
         return longitudes;
 
     }
 
-    private static int R = 6371000; // jordens radius
+    private static int R = 6371000; 
 
     public static double distance(GPSPoint gpspoint1, GPSPoint gpspoint2) {
 
@@ -96,9 +84,6 @@ public class GPSUtils {
         c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
         d = R * c;
 
-        // throw new UnsupportedOperationException(TODO.method());
-
-        // TODO - SLUTT
         return d;
 
     }
@@ -109,11 +94,6 @@ public class GPSUtils {
         double distance = distance(gpspoint1,gpspoint2)/10;
         double speed = (distance*108)  / (secs * (18/5));
 
-        // TODO - START
-
-
-
-        // TODO - SLUTT
         return speed;
     }
 
@@ -123,9 +103,6 @@ public class GPSUtils {
         String TIMESEP = ":";
         String seconds, minutes, hours;
 
-
-
-        // TODO - START
 
         seconds = String.valueOf(secs%60);
         minutes = String.valueOf(secs%3600/60);
@@ -142,9 +119,8 @@ public class GPSUtils {
         }
         timestr = hours + TIMESEP + minutes + TIMESEP + seconds;
         return timestr;
-        //throw new UnsupportedOperationException(TODO.method());
-
-        // TODO - SLUTT
+      
+        
     }
     private static int TEXTWIDTH = 10;
 
@@ -152,11 +128,9 @@ public class GPSUtils {
 
         String str;
 
-        // TODO - START
 
         str = String.valueOf(Math. round(d*100.0)/100.0);
 
-        // TODO - SLUTT
         return str;
     }
 }
